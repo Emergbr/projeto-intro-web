@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.containerGeral{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+    width: 100vw;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1% 4% 0;
+    border: solid black 1px;
+    width: 100vw;
+    height: 20vh;
+}
+
+#modelosMotos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    justify-content: space-between;
+    gap: 5rem;
+    padding: 0 10% 0;
+}
+
+#Ninja{
+    border: solid black 1px;
+    padding: 5px;
+}
+
+#CBR{
+    border: solid black 1px;
+    padding: 5px;
+}
+
+#Hayabusa{
+    border: solid black 1px;
+    padding: 5px;
+}
+
+footer{
+    width: 100vw;
+    height: 8vh;
+    position: absolute;
+    bottom: 0;
+    background-color: cornsilk;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+p{
+    margin-top: 5%;
+}
